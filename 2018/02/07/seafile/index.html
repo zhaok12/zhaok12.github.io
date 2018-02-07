@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="look atyzlnewfor more information about sbyzl">
+<meta name="description" content="sealfile简介Seafile 是一个开源的文件云存储平台，解决文件集中存储、同步、多平台访问的问题，注重安全和性能。Seafile 通过“资料库”来分类管理文件，每个资料库可单独同步，用户可加密资料库， 且密码不会保存在服务器端，所以即使是服务器管理员也无权访问你的文件。Seafile 允许用户创建“群组”，在群">
 <meta property="og:type" content="article">
-<meta property="og:title" content="sbyzl">
-<meta property="og:url" content="http://yoursite.com/2017/11/17/sbyzl/index.html">
+<meta property="og:title" content="seafile">
+<meta property="og:url" content="http://yoursite.com/2018/02/07/seafile/index.html">
 <meta property="og:site_name" content="ZKBLOG">
-<meta property="og:description" content="look atyzlnewfor more information about sbyzl">
+<meta property="og:description" content="sealfile简介Seafile 是一个开源的文件云存储平台，解决文件集中存储、同步、多平台访问的问题，注重安全和性能。Seafile 通过“资料库”来分类管理文件，每个资料库可单独同步，用户可加密资料库， 且密码不会保存在服务器端，所以即使是服务器管理员也无权访问你的文件。Seafile 允许用户创建“群组”，在群组内共享和同步文件，方便了团队协同工作。 安装准备：一台服务器，我用的是阿里云服">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-17T07:57:24.894Z">
+<meta property="og:updated_time" content="2018-02-07T05:53:20.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="sbyzl">
-<meta name="twitter:description" content="look atyzlnewfor more information about sbyzl">
+<meta name="twitter:title" content="seafile">
+<meta name="twitter:description" content="sealfile简介Seafile 是一个开源的文件云存储平台，解决文件集中存储、同步、多平台访问的问题，注重安全和性能。Seafile 通过“资料库”来分类管理文件，每个资料库可单独同步，用户可加密资料库， 且密码不会保存在服务器端，所以即使是服务器管理员也无权访问你的文件。Seafile 允许用户创建“群组”，在群组内共享和同步文件，方便了团队协同工作。 安装准备：一台服务器，我用的是阿里云服">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/11/17/sbyzl/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/02/07/seafile/"/>
 
 
 
 
 
-  <title>sbyzl | ZKBLOG</title>
+  <title>seafile | ZKBLOG</title>
   
 
 
@@ -262,7 +262,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/17/sbyzl/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/07/seafile/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jasper">
@@ -279,7 +279,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">sbyzl</h1>
+          <h1 class="post-title" itemprop="name headline">seafile</h1>
         
 
         <div class="post-meta">
@@ -291,8 +291,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-17T18:06:04+08:00">
-                2017-11-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-07T15:24:29+08:00">
+                2018-02-07
               </time>
             
 
@@ -329,7 +329,24 @@
       
 
       
-        <p>look at<br><a href="https://yzlnew.github.io" target="_blank" rel="noopener">yzlnew</a><br>for more information about sbyzl</p>
+        <h3 id="sealfile简介"><a href="#sealfile简介" class="headerlink" title="sealfile简介"></a>sealfile简介</h3><p>Seafile 是一个开源的文件云存储平台，解决文件集中存储、同步、多平台访问的问题，注重安全和性能。<br>Seafile 通过“资料库”来分类管理文件，每个资料库可单独同步，用户可加密资料库， 且密码不会保存在服务器端，所以即使是服务器管理员也无权访问你的文件。<br>Seafile 允许用户创建“群组”，在群组内共享和同步文件，方便了团队协同工作。</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>准备：一台服务器，我用的是阿里云服务器ECS<br>可以用<a href="https://manual-cn-origin.seafile.com/" target="_blank" rel="noopener">官方</a>的<a href="https://github.com/haiwen/seafile-server-installer-cn" target="_blank" rel="noopener">快速安装方法</a>进行安装</p>
+<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>阿里云服务器的安全组规则中打开下面两个端口：</p>
+<ol>
+<li>seafile fileserver 负责为 Seahub 处理文件的上传和下载</li>
+</ol>
+<ul>
+<li>默认端口：8082</li>
+<li>配置文件：seafile/conf/seafile.conf</li>
+</ul>
+<ol>
+<li>seahub 是 Seafile 服务器的 Web 端</li>
+</ol>
+<ul>
+<li>默认端口：8000</li>
+<li>配置文件：seafile/conf/ccnet.conf<br><br>详情请见官方文档中包含<a href="https://manual-cn.seafile.com/deploy_windows/ports_used_by_seafile_windows_server.html" target="_blank" rel="noopener">端口说明</a></li>
+</ul>
+<h3 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h3><p>网页登录：ip:8000 or 域名:8000<br>客户端登录：<a href="https://www.seafile.com/download/" target="_blank" rel="noopener">下载地址</a></p>
 
       
     </div>
@@ -363,10 +380,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/12/17/mactest/" rel="prev" title="mactest">
-                mactest <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -416,8 +429,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -436,7 +458,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -466,6 +488,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#sealfile简介"><span class="nav-number">1.</span> <span class="nav-text">sealfile简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置"><span class="nav-number">3.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#登录"><span class="nav-number">4.</span> <span class="nav-text">登录</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -479,7 +517,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
